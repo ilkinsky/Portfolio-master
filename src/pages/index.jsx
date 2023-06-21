@@ -8,7 +8,7 @@ import GithubCard from "../components/global/repositories";
 export default function Home() {
 
   return (
-    <>asd
+    <>
      
         <div className="mt-10 px-5">
           <About  />
