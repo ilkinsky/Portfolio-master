@@ -1,10 +1,10 @@
 export default async(req, res) => { 
     const project = [
         {
-            "name": "Frozexxn.netlify.app",
+            "name": "Other web-sites",
             "link": "https://cdn.discordapp.com/attachments/994950277406916638/1120764808086687794/image.png",
             "description": "This is my other site",
-            "html_url": "https://ringoffires.com"
+            "html_url": "https://frozexxnnnn.netlify.app/"
         },
         {
             "name": "Computer sales",
@@ -16,7 +16,7 @@ export default async(req, res) => {
             "name": "Country information",
             "link": "https://cdn.discordapp.com/attachments/994950277406916638/1120766277175218268/image.png",
             "description": "Its my first site.",
-            "html_url": "country-informationss.netlify.app"
+            "html_url": "https://country-informationss.netlify.app"
         }
     ]
     res.status(200).json(project)

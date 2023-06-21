@@ -5,11 +5,10 @@ import SpotifyCard from "../components/global/spotifyCard";
 import VscCard from "../components/global/vscCard";
 import GithubCard from "../components/global/repositories";
 
-
 export default function Home() {
 
   return (
-    <>
+    <>asd
      
         <div className="mt-10 px-5">
           <About  />
@@ -19,7 +18,7 @@ export default function Home() {
           <GithubCard />
           <Teach />
           </div>
-        </div>
+        </div>sdsad 
       
     </>
   );
