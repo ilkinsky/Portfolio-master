@@ -1,5 +1,4 @@
 const { default: Link } = require("next/link");
-
 module.exports = {
     discord: {
         id: "994209718585266299",  
@@ -29,8 +28,8 @@ module.exports = {
     titles: [
         { title: 'Home  ', url: '/', icon: 'fa-lock', invisible: false },
         { title: 'Projects', url: '/projects', icon: 'fa-blog', invisible: false },
-        
-        
+        { title :'Talk to me' , url:'mailto:ilkinehmedzade35@gmail.com', icon: 'fa-heart', invisible: false },
+
+
     ]
 }
-

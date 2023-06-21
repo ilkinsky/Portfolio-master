@@ -14,13 +14,13 @@ class MyDocument extends Document {
           <meta name="googlebot-news" content="snippet" />
           <meta name="robots" content="follow" />
           <meta name="twitter:card" content="summary" />
-          <meta name="twitter:site" content="@Frozexxn" />
-          <meta name="twitter:creator" content="@Frozexxn" />
+          <meta name="twitter:site" content="@Aronshire" />
+          <meta name="twitter:creator" content="@Aronshire" />
           <meta name="description" content={config.meta.description} />
           <meta name="theme-color" content={config.meta.theme} />
           <link rel="canonical" href={config.meta.url} />
-          <meta name="publisher" content="2023, Frozexxn" />
-          <meta name="author" content="ilkinehmedzade35@gmail.com" />
+          <meta name="publisher" content="2023, Aronshire" />
+          <meta name="author" content="aronshire@gmail.com" />
           <link rel="icon" href={config.meta.image} type="image/x-icon" />
           <link
             href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css"

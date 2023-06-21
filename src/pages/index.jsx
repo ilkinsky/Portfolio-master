@@ -5,6 +5,7 @@ import SpotifyCard from "../components/global/spotifyCard";
 import VscCard from "../components/global/vscCard";
 import GithubCard from "../components/global/repositories";
 
+
 export default function Home() {
 
   return (
