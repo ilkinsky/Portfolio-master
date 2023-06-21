@@ -45,7 +45,7 @@ export default function Footer() {
     },
     instagram: {
       icon: "instagram",
-      alt: "instagram",
+      alt: "Instagram",
       href: `${config.social.instagram}`,
       target: "_blank",
     }
