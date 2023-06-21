@@ -43,7 +43,12 @@ export default function Footer() {
       href: `${config.social.spotify}`,
       target: "_blank",
     },
-
+    instagram: {
+      icon: "instagram",
+      alt: "instagram",
+      href: `${config.social.instagram}`,
+      target: "_blank",
+    }
   };
   return (
     <>
@@ -88,7 +93,7 @@ export default function Footer() {
                   href={logo.discord.href}
                   target={logo.discord.target}
                 >
-                  <Tippy
+                                 <Tippy
                     content={logo.discord.alt}
                     className="dark:bg-gray-800/50"
                   >
@@ -108,8 +113,16 @@ export default function Footer() {
                   </Tippy>
                 </a>
                 
-            
-
+                <a href={logo.instagram.href} target={logo.instagram.target} className="mr-3">
+                  <Tippy
+                    content={logo.instagram.alt}
+                    className="dark:bg-gray-800/50"
+                  >
+                    <i
+                      className={`fab fa-${logo.instagram.icon} dark:text-white`}
+                    />
+                  </Tippy>
+                </a>
 
                 <a href={logo.spotify.href} target={logo.spotify.target}>
                   <Tippy
@@ -120,6 +133,7 @@ export default function Footer() {
                       className={`fab fa-${logo.spotify.icon} dark:text-white`}
                     />
                   </Tippy>
+
                 </a>
               </div>
             </div>
