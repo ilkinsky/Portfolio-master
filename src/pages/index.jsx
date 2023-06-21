@@ -18,7 +18,7 @@ export default function Home() {
           <GithubCard />
           <Teach />
           </div>
-        </div>sdsad 
+        </div>
       
     </>
   );
