@@ -55,7 +55,7 @@ export default function Header() {
 
         <div className="flex items-center">
           <button className="bg-indigo dark:bg-indigo/75 font-medium p-2 w-32 translation duration-300 hover:bg-indigo/60 rounded-md text-white">
-            <Link href={"https://www.youtube.com/watch?t=8&v=fLexgOxsZu0&feature=youtu.be"} key={"1"}>
+            <Link href={"https://youtu.be/dQw4w9WgXcQ"} key={"1"}>
               <a
               >
                 {"Dont Pree's"}
