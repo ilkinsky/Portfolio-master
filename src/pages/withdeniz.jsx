@@ -16,7 +16,7 @@ const getTimeMinutes = (time) => ((time % hourSeconds) / minuteSeconds) | 0;
 const getTimeHours = (time) => ((time % daySeconds) / hourSeconds) | 0;
 const getTimeDays = (time) => (time / daySeconds) | 0;
 
-export default function withKaily() {
+export default function withdeniz() {
 
     const { data: me } = swr("/api/v1/me");
     const _me = me ? me : null;
@@ -31,8 +31,8 @@ export default function withKaily() {
     };
 
 
-    const stratTime = Date.now() / 1000; 
-    const endTime = new Date(config.kaily).getTime() / 1000
+    const stratTime = Date.now() / 100; 
+    const endTime = new Date(config.deniz).getTime() / 1000
 
     const remainingTime = endTime - stratTime;
     const days = Math.ceil(remainingTime / daySeconds);
@@ -54,13 +54,13 @@ export default function withKaily() {
                         </div>
                         <div className="lg:mr-10 mt-8">
                             <div className="text-2xl font-bold text-center dark:text-white/50">
-                                Aronshire
+                                Frozexxn
                             </div>
                             <div className="text-2xl font-bold text-center dark:text-white/50">
                                 ❤️
                             </div>
                             <div className="text-2xl font-bold text-center dark:text-white/50">
-                                Kaily
+                                Deniz
                             </div>
                         </div>
 
@@ -79,7 +79,7 @@ export default function withKaily() {
             <div className="mt-3 w-full text-center">
                 <p className="pl-3 text-4xl text-md mt-1 dark:text-white/50 ">
                     <span className="text-indigo">
-                        Anniversary with Kaily
+                        Anniversary with Deniz
                     </span>
                 </p>
                 <div className="ml-3  -mt-3 text-center">
@@ -88,7 +88,7 @@ export default function withKaily() {
                             <div className="">
                                 <i className="fas fa-clock text-indigo  text-lg  mr-2" />
                                 <span className="text-md text-center font-light dark:text-white/50">
-                                    05.05.2022
+                                   06.24.2023
                                 </span>
                             </div>
                         </div>

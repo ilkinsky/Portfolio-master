@@ -1,7 +1,8 @@
 const { default: Link } = require("next/link");
 module.exports = {
     discord: {
-        id: "994209718585266299",  
+        id: "994209718585266299",
+        kaily:"1106482574618005535" 
     },
     github: {
         token1: "ghp_glp5HVMRtuOmz6b",
@@ -29,7 +30,7 @@ module.exports = {
         { title: 'Home  ', url: '/', icon: 'fa-lock', invisible: false },
         { title: 'Projects', url: '/projects', icon: 'fa-blog', invisible: false },
         { title :'Talk to me' , url:'mailto:ilkinehmedzade35@gmail.com', icon: 'fa-heart', invisible: false },
-
+        
 
     ]
 }
