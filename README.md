@@ -10,7 +10,7 @@
 ## 📦 Installation
 
 ```bash 
-git clone https://github.com/Aronshire/portfolio.git
+git clone https://github.com/ilkinsky/Portfolio-master
 ```
 
 ## 🛠 Setup
