@@ -1,4 +1,4 @@
-# Portfolio made by [Aronshire](https://github.com/Aronshire)
+# Portfolio made by [ilkinsky](https://github.com/ilkinsky)
 
 ## 📝 Credits
 
@@ -22,4 +22,4 @@ npm install --s --f && npm run dev
 
 ## 📄 License
 
-MIT © [Aronshire](./LICENSE)
+MIT © [ilkinsky](./LICENSE)
